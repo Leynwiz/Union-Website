@@ -1,12 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
-</head>
-<body>
-    Привет мир
-</body>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+            <div class="header__top">
+                <a class="header__logo" href="#">
+                    <img class="logo" src="images/logo.svg" alt="">    
+                </a>
+                <input class="search" type="text" , placeholder="search">
+                <nav class="menu">
+                  <ul class="menu__list">
+                    <li class="menu__item">
+                      <a class="menu__item-link" href="#">Home</a>
+                    </li>
+                    <li class="menu__item">
+                      <a class="menu__item-link" href="#">About us</a>
+                    </li>
+                    <li class="menu__item">
+                      <a class="menu__item-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="menu__item">
+                      <a class="menu__item-link" href="#">Services</a>
+                    </li>
+                    <li class="menu__item">
+                      <a class="menu__item-link" href="#">Contact</a>
+                    </li>
+                  </ul>
+                </nav>
+            </div>
+            <div class="header__bottom">
+                <h2 class="header__subtitle">
+                    <img src="images/enter-into.svg" alt="">
+                </h2>
+                <h1 class="header__title">
+                    <img src="images/the-unknown.svg" alt="">
+                </h1>
+                <p class="header__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum dignissim leo et pharetra.
+                    Morbi ut tempor felis. Nam aliquet fringilla magna eu porttitor.
+                </p>
+                <div class="user__actions">
+                    <a class="see__more" href="">see more</a>
+                    <a class="contanct" href="">contact</a>
+                </div>
+            </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+        <section class="about-us__slider">
+            <div class="container">
+                <div class="about-us__inner">
+                    <p class="about-us__title">
+                        <a class="about-us__link" href="">about us</a>
+                    </p>
+                    <div class="about-us__slide">
+                        <img class="about-us__img" src="images/slide-1.jpg" alt="">
+                        <div class="about-us__person">
+                            <p class="person__name">
+                                Mahmudul Hassan
+                            </p>
+                            <h2 class="person__job">
+                                web-designer
+                            </h2>
+                            <p class="person__description">
+                                Lorem ipsum dolor sit amet, 
+                                consectetur adipiscing elit.
+                                Quisque interdum dignissim <br>
+                                leo e   t pharetra. <br>
+                                Morbi ut tempor felis. <br>
+                                Nam aliquet fringilla magna <br>
+                                eu porttitor. <br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="our-portfolio">
+            <div class="container">
+                <div class="our-portfolio__inner">
+                    <p class="our-portfolio__title">
+                        <a class="our-portfolio__link" href="">our portfolio</a>
+                    </p>
+                    <div class="our-portfolio__content">
+                        <img class="our-portfolio__img" src="images/portfolio-1.jpg" alt="">
+                        <img class="our-portfolio__img" src="images/portfolio-2.jpg" alt="">
+                        <img class="our-portfolio__img" src="images/portfolio-3.jpg"alt="">
+                        <img class="our-portfolio__img" src="images/portfolio-4.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="change-service">
+            <div class="container">
+                <div class="servise__items">
+                    <h3 class="servise__item">
+                        <a class="servise__link" href="#">Graphic Design</a>
+                    </h3>
+                    <h3 class="servise__item">
+                        <a class="servise__link" href="#">Web design</a>
+                    </h3>
+                    <h3 class="servise__item">
+                        <a class="servise__link" href="#">Web <br> development</a>
+                    </h3>
+                    <h3 class="servise__item">
+                        <a class="servise__link" href="#">Motion <br> Graphics</a>
+                    </h3>
+                    <h3 class="servise__item">
+                        <a class="servise__link" href="#">Interior <br> Design</a>
+                    </h3>
+                    <h3 class="servise__item">
+                        <a class="servise__link" href="#">Seo</a>
+                    </h3>
+                </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="connection__inner">
+                <div class="connection__address">
+                    <p class="location__address">
+                        36, East Rampura, <br>
+                        Dhaka - 1219
+                    </p>
+                    <p class="email__address-one">
+                        alasad0102@gmail.com
+                    </p>
+                    <p class="email__address-two">
+                        hassanmahmudul917@gmail.com
+                    </p>
+                </div>
+                <div class="connection__social">
+                    <p class="social__title">
+                        Follow us on
+                    </p>
+                    <div class="social__media">
+                        <a class="social__link" href=""><img class="facebook" src="images/facebook.svg" alt=""></a>
+                        <a class="social__link" href=""><img class="twitter" src="images/twitter.svg" alt=""></a>
+                        <a class="social__link" href=""><img class="LinkedIn" src="images/linkedin.svg" alt=""></a>
+                    </div>
+                </div>
+                <div class="connection__phone">
+                    <p class="phone__one">
+                        02 9394939
+                    </p>
+                    <p class="phone__two">
+                        +880 1555962147 <br> 
+                        +880 1555962147
+                    </p>
+                    <p class="phone__three">
+                        +880 1489253144 <br>
+                        +880 1489253144
+                    </p>
+                </div>
+            </div>
+        </div>
+        <p class="copyright">
+            Copyright @ 2023 Union Allied Organisation
+        </p>
+    </footer>
+  </body>
 </html>
